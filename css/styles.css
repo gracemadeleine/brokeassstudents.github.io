@@ -1,0 +1,272 @@
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.welcome {
+	float:center;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: white;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: Roboto;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width:1100px ;	
+  margin: 0 auto; 
+}
+
+#logo {
+  margin:20px;
+}
+
+#mainTitle {
+/*	height:147px;
+	line-height:137px;
+	display:inline-block;
+	vertical-align:top;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    display: center;
+}
+
+footer {
+    margin-top:20px;
+    background-color: #333;
+}
+
+li {
+    float: left;
+     display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+body {margin:0;}
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;}
+
+ .navigation {
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.nav li {float: left;}
+
+ul.nav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.nav li a:hover {background-color: #111;}
+
+ul.nav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.nav li:not(:first-child) {display: none;}
+  ul.nav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.nav.responsive {position: relative;}
+  ul.nav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.nav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.nav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+#apricots {
+  width:100%;
+}
+
+h1 {
+  font-size: 80px;
+  text-shadow: 1px 1px #EE7600;
+  color:orange;
+  font-weight: 700;
+  margin-bottom: 20px;
+  }
+
+.social {
+  position:absolute;
+  top: 0;
+  right: 20px;
+  width: 105px;
+  height: 130px;
+  font-size:24px;
+}
+
+.facebook {
+  color:#3b5998;
+}
+
+.googleplus {
+  color:#d34836;
+}
+
+.wordpress {
+  color:#21759b;
+}
+
+.twitter {
+  color:#0084b4;
+}
+
+.video {
+  display:inline-block;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+#mainTitle {
+line-height:100px;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
+
+
+

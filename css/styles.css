@@ -69,6 +69,22 @@ a {
   margin:20px;
 }
 
+
+#unidays {
+  max-width:200px;
+  margin: 0 auto;
+}
+
+#asos {
+  max-width:200px;
+  margin: 0 auto;
+}
+
+#broadsheet {
+  max-width:200px;
+  margin: 0 auto;
+}
+
 #mainTitle {
 /*	height:147px;
 	line-height:137px;

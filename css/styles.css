@@ -75,6 +75,11 @@ a {
   margin: 0 auto;
 }
 
+#topshop {
+  max-width:200px;
+  margin: 0 auto;
+}
+
 #asos {
   max-width:200px;
   margin: 0 auto;
@@ -83,6 +88,21 @@ a {
 #broadsheet {
   max-width:200px;
   margin: 0 auto;
+}
+
+#studentedge {
+  max-width:200px;
+  margin: 0 auto;
+}
+
+#grilld {
+  max-width:200px;
+  max-height:200px;
+  margin: 0 auto;
+}
+
+#videoWrapper {
+  display: center;
 }
 
 #mainTitle {

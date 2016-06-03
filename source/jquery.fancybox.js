@@ -1,23 +1,14 @@
-// waits for document ready - deprecated
-// $(document).ready(function(){
-// 		your javascript code goes here
-// });
-
-// this is the shorthand for document ready - used now
-// $(function(){
-// 		your javascript code goes here
-// });
-
-/*$(function(){
-	//js goes here
-	
-});
-
-	
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
-}
+/*!
+ * fancyBox - jQuery Plugin
+ * version: 2.1.5 (Fri, 14 Jun 2013)
+ * @requires jQuery v1.6 or later
+ *
+ * Examples at http://fancyapps.com/fancybox/
+ * License: www.fancyapps.com/fancybox/#license
+ *
+ * Copyright 2012 Janis Skarnelis - janis@fancyapps.com
+ *
+ */
 
 (function (window, document, $, undefined) {
 	"use strict";
